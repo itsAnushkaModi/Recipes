@@ -1,0 +1,125 @@
+body {
+    background-image: url('https://assets.vogue.in/photos/5f8d276e31243af9c390adc4/2:3/w_1920,c_limit/DIY%20meals.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);    
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.recipe {
+    margin-top: 20px;
+    text-align: left;
+}
+
+i.fa-solid{
+    position: absolute;
+    left: 66%;
+    top: 57px;
+    cursor: pointer;
+    color: rgb(174, 121, 121);
+display: none;
+}
+.img{
+    transition: 0.4s;
+    
+}
+.img:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 5px 1px gray;
+}
+
+.yt:hover{
+    text-shadow:  0 0 4px red;
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave{
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, black, yellow);
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+    display: none;
+}
+.wave:nth-child(2){
+    animation-delay: 0.15s;
+}
+.wave:nth-child(3){
+    animation-delay: 0.2s;
+}
+.wave:nth-child(4){
+    animation-delay: 0.3s;
+}
+.wave:nth-child(5){
+    animation-delay: 0.4s;
+}
+.wave:nth-child(6){
+    animation-delay: 0.5s;
+}
+.wave:nth-child(7){
+    animation-delay: 0.6s;
+}
+.wave:nth-child(8){
+    animation-delay: 0.7s;
+}
+.wave:nth-child(9){
+    animation-delay: 0.8s;
+}
+.wave:nth-child(10){
+    animation-delay: 0.9s;
+}
+
+@keyframes wave {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
